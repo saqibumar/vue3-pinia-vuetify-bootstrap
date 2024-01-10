@@ -2,6 +2,15 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+# TASKS
+
+- Create a layout that has a a top header and two columns as shown in the image
+- the header should have a hamburger icon/button on the left that when clicked hides/shows the sidebar
+- The top right of the header should have a login button.
+- When login button clicked call this api https://randomuser.me/api/. On success hide the login button and show the username in it's place.
+- On page load call this api https://api.coindesk.com/v1/bpi/currentprice.json and show the current price of btc in the content section. Show USD, GBP and EUR prices.
+- The content area should also show a grid of 9 images, 3x3. You can get random images with this api https://picsum.photos This should be responsive and show 2x2 on smaller screens and then one column on mobile.
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -40,3 +49,4 @@ npm run build
 ```
 # vue3-pinia-vuetify-bootstrap
 Vue3 + pinia + bootstrap + Vuetify
+
