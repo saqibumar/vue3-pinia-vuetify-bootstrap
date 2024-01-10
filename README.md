@@ -38,3 +38,5 @@ npm run dev
 ```sh
 npm run build
 ```
+# vue3-pinia-vuetify-bootstrap
+Vue3 + pinia + bootstrap + Vuetify
